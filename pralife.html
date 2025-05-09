@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PraLife - Compre Produtos Saudáveis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4e4c1;
+      margin: 0;
+      padding: 0;
+      color: #2e2e2e;
+    }
+    header {
+      background-color: #5e2b1b;
+      color: #fff;
+      text-align: center;
+      padding: 5px;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      color: #5e2b1b;
+      margin-top: 40px;
+    }
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .produto {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .produto h3 {
+      margin: 10px 0 5px;
+      color: #a25934;
+    }
+    .produto p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .preco {
+      font-size: 18px;
+      font-weight: bold;
+      color: #b22c1f;
+      margin: 10px 0;
+    }
+    .botao-comprar {
+      background-color: #a63d40;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .botao-comprar:hover {
+      background-color: #8a2c2c;
+    }
+    .contato {
+      margin-top: 60px;
+      padding: 20px;
+      background-color: #e3c9a0;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #2e1b0f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Catálogo Beatriz.svg" style="height: 6rem;width: auto;">
+  </header>
+
+  <div class="container">
+    <h2>Compre Agora</h2>
+    <section class="produtos">
+      <!-- Produto 1 -->
+      <div class="produto">
+        <img src="3.svg" alt="Chips de Frutas Vermelhas">
+        <h3>Chips de Frutas Vermelhas</h3>
+        <p>Delicioso, leve e perfeito para o dia a dia.</p>
+        <p class="preco">R$ 12,90</p>
+        <button class="botao-comprar">Comprar</button>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="produto">
+        <img src="4.svg" alt="Gel de Cacau Energético">
+        <h3>Gel Energético de Cacau</h3>
+        <p>Energia natural sem efeitos colaterais.</p>
+        <p class="preco">R$ 9,90</p>
+        <button class="botao-comprar">Comprar</button>
+      </div>
+    </section>
+
+    <section class="contato">
+      <h2>Fale Conosco</h2>
+      <p>Instagram: <a href="https://www.instagram.com/pralife.br?igsh=aGsyamFzdHlnaGlt" target="_blank">@pralife.br</a></p>
+      <p>Email: <a href="mailto:contato@pralife.com">contato@pralife.com</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 PraLife - Todos os direitos reservados.
+  </footer>
+</body>
+</html>
